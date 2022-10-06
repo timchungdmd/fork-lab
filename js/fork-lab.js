@@ -48,6 +48,7 @@ function qTaco () {
   }
 }
 
+function qAnime () {
   let likeAnime = prompt("Do you watch animes?");
   likeAnime = likeAnime.toLowerCase();
   if (likeAnime === "yes" || likeAnime === "y") {
@@ -59,7 +60,7 @@ function qTaco () {
   }else {
     alert('You need to answer with a Yes or a No');
   }
-
+}
 
   let likeApple = prompt("Do you have an iPhone?");
   likeApple = likeApple.toLowerCase();

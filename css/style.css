@@ -1,0 +1,54 @@
+html{
+  background-color: rgb(231, 253, 242);
+  
+  
+}
+nav{
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(80, 80, 80);
+  padding: 0.5em 1em 0.5em 1em;
+  
+}
+body{
+  background-color: rgba(245, 245, 220, 0.401);
+  height: auto;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: auto;
+  vertical-align: middle;
+  border-width: 1px;
+  border-color: rgb(80, 80, 80);
+  border-style: solid;
+}
+.container{
+  padding: 0.5em 1em 0.5em 1em;
+  background-color: aliceblue;
+
+}
+h1{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+ul{
+  border-style: dotted;
+  border-width: 1px;
+  padding: 0.5em;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+footer{
+  border-width: 1px 0 1px 0;
+  border-color: rgb(80, 80, 80); 
+  border-style: dotted;
+  padding: 2em;
+}
+ol{
+  border-style: dotted;
+  border-width: 1px;
+  padding: 0.5em;
+  list-style: numbers;
+  list-style-position: inside;
+}

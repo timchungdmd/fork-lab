@@ -16,6 +16,7 @@ One true and it will run
 //}
 
 //First 5 questions
+function qName () {
   let username = prompt("What is your name?");
   console.log(username);
   let greet = alert("Hi " + username + ", welcome to my About Me page");
@@ -31,7 +32,7 @@ One true and it will run
   }else{
     alert('You need to answer with a Yes or a No');
   }
-
+}
   let likeTacos = prompt("Do you like tacos?");
   likeTacos = likeTacos.toLowerCase();
   if (likeTacos === "yes" || likeTacos === "y") {
@@ -43,7 +44,6 @@ One true and it will run
   }else {
     alert('You need to answer with a Yes or a No');
   }
- 
 
   let likeAnime = prompt("Do you watch animes?");
   likeAnime = likeAnime.toLowerCase();
@@ -56,6 +56,7 @@ One true and it will run
   }else {
     alert('You need to answer with a Yes or a No');
   }
+
 
   let likeApple = prompt("Do you have an iPhone?");
   likeApple = likeApple.toLowerCase();

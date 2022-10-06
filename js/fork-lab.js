@@ -62,6 +62,7 @@ function qAnime () {
   }
 }
 
+function qApple () {
   let likeApple = prompt("Do you have an iPhone?");
   likeApple = likeApple.toLowerCase();
   if (likeApple === "yes" || likeApple === "y") {
@@ -73,7 +74,9 @@ function qAnime () {
   }else {
     alert('You need to answer with a Yes or a No');
   }
+}
 
+function qTravel () {
   let likeTravel = prompt("Have you traveled anywhere in the past 6 months?");
   likeTravel = likeTravel.toLowerCase();
   if (likeTravel === "yes" || likeTravel === "y") {
@@ -89,7 +92,7 @@ function qAnime () {
   }
 
   alert(username + ", thank you for participating in this short survey!");
-
+}
 
 //6th quiz
 let start=alert("Let's play another game!");

@@ -130,6 +130,7 @@ function game1() {
 }
 
 //7th quiz
+function game2() {
 let last = alert("I promise this is the last game we will play");
 let mcdmenu = ['BIG MAC', 'DOUBLE CHEESEBURGER', 'CHICKEN SANDWICH', 'MCNUGGETS', 'QUARTER POUNDER', 'MCFLURRY', 'SPICY MCCHICKEN'];
 const random = Math.floor(Math.random() * 7) + 1;
@@ -161,3 +162,4 @@ let finalScore2 = tries1;
 let total = finalScore1 + finalScore2
 console.log(`You got ${finalScore2} point from this quiz. Your total score is ${total}`);
 alert(`You got ${finalScore2} from this quiz. Your total score is ${total}`)
+}

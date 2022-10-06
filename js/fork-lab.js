@@ -33,6 +33,8 @@ function qName () {
     alert('You need to answer with a Yes or a No');
   }
 }
+
+function qTaco () {
   let likeTacos = prompt("Do you like tacos?");
   likeTacos = likeTacos.toLowerCase();
   if (likeTacos === "yes" || likeTacos === "y") {
@@ -44,6 +46,7 @@ function qName () {
   }else {
     alert('You need to answer with a Yes or a No');
   }
+}
 
   let likeAnime = prompt("Do you watch animes?");
   likeAnime = likeAnime.toLowerCase();
